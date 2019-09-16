@@ -1,7 +1,8 @@
 ## Note
 
-* find-duplicates.py      - creates duplicates.csv file with similar pictures
-* delete-duplicates.py    - deletes files from the list in duplicates.csv 
+* find-duplicates.py        - creates duplicates.csv file with similar pictures
+* view-delete-duplicates.py - display pairs from duplicates.csv and delete or skip manually
+* delete-duplicates.py      - automatically deletes files from the list in duplicates.csv 
 
 !!Note that find-duplicates.py will compare every next image faster and faster. Inside the main loop, it compares every image to all the other images, but skip those that has been compared before. 
 
@@ -10,6 +11,11 @@ Then run bash commands from curent folder
 ```
 python find-duplicates.py
 python delete-duplicates.py
+```
+or 
+```
+python find-duplicates.py
+python view-delete-duplicates.py
 ```
 
 
